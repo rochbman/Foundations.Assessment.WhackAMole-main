@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Whack-a-mole</title>
+        <link rel="stylesheet" href = "main.css">
+    </head>
+    <body>
+        <div id="container">
+            <div>
+                <button class="start" id="menu">start</button>
+                <button id="menu"onClick="window.location.reload()">
+                    reset
+                </button>
+            </div>
+            <h1 id="counter">0</h1>
+            <h1 id="message"></h1>
+            
+            <div id="dirt-box">
+              <div class="row" id="row0-container">
+                <div class="dirtspot">
+                    <img src="hole.png" id="hole1" alt="">
+                </div>
+                <div class="dirtspot" >
+                    <img src="hole.png" id="hole2" alt="">
+                </div>
+                <div class="dirtspot" >
+                    <img src="hole.png" id="hole3" alt="">
+                </div>
+              </div>
+          
+              <div class="row" id="row1-container">
+                <div class="dirtspot" >
+                    <img src="hole.png" id="hole4" alt="">
+                </div>
+                <div class="dirtspot" >
+                    <img src="hole.png" id="hole5" alt="">
+                </div>
+                <div class="dirtspot" >
+                    <img src="hole.png" id="hole6" alt="">
+                </div>
+              </div>
+          
+              <div class="row" id="row2-container">
+                <div class="dirtspot" >
+                    <img src="hole.png" id="hole7" alt="">
+                </div>
+                <div class="dirtspot" >
+                    <img src="hole.png" id="hole8" alt="">
+                </div>
+                <div class="dirtspot" >
+                    <img src="hole.png" id="hole9" alt="">
+                </div>
+              </div>
+          
+            </div>
+          </div>
+          <script src="index.js"></script>
+    </body>
+</html>
